@@ -7,11 +7,11 @@ const users = usersData.value;
 </script>
 
 <template>
-    <div class="w-[600px] h-screen p-5  bg-[rgb(0,0,0)] ">
+    <div class="w-[500px] h-full p-5  bg-[rgb(0,0,0)] ">
         <h1 class="font-bold text-3xl text-white">Consuming API</h1>
         <div class="h-full mt-10 p-2">
             <ul class="flex flex-col gap-3">
-                <li class="rounded-lg px-2 py-4 bg-[#231828]">
+                <li class="rounded-lg px-2 py-4 bg-gray-800">
                     <div class="mb-2 ml-2">
                         <h2 class="text-white font-bold">channel #1</h2>
                     </div>
@@ -19,16 +19,7 @@ const users = usersData.value;
                         <UserCard v-for="user in users" :key="user.name" :user="user.name" />
                     </div>
                 </li>
-                <li class="rounded-lg p-4 bg-[#231828]">
-                    <div class="">
-                        <h2 class="text-white font-bold">channel #2</h2>
-                    </div>
-                </li>
-                <li class="rounded-lg p-4 bg-[#231828]">
-                    <div class="">
-                        <h2 class="text-white font-bold">channel #2</h2>
-                    </div>
-                </li>
+
             </ul>
         </div>
     </div>

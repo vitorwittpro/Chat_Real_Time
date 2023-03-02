@@ -1,7 +1,7 @@
 <script setup>
 
 const props = defineProps({
-    user: Object
+    user: String
 })
 
 const firstLetter = (str) => {
