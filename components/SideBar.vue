@@ -9,7 +9,7 @@ const users = usersData.value;
 <template>
     <div class="w-[500px] h-full p-5  bg-[rgb(0,0,0)] ">
         <h1 class="font-bold text-3xl text-white">Consuming API</h1>
-        <div class="h-full mt-10 p-2">
+        <div class="mt-10 p-2">
             <ul class="flex flex-col gap-3">
                 <li class="rounded-lg px-2 py-4 bg-gray-800">
                     <div class="mb-2 ml-2">
